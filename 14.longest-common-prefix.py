@@ -14,7 +14,7 @@ class Solution:
                 if(j > len(letters)-1):
                     c = letters
                     break
-                if(c[j] != letters[j]):
+                elif(c[j] != letters[j]):
                     c = c[:j]
                     break
             if(len(c) == 0):
